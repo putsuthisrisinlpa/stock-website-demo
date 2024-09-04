@@ -4,7 +4,11 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Table Styling</title>
+    <link rel="stylesheet" href="/global.css" />
 		<style>
+section {
+padding: 0.5em 0;
+}
 table {
 table-layout: fixed;
 width: 100%;
@@ -22,9 +26,18 @@ background-color: #f2f2f2;
   </head>
 
     <main>
-			<h1>
-				User table
-			</h1>
+			<h1>Table Styling</h1>
+			<section>
+				<h2>Instructions</h2>
+				<ol> 
+					<li>Create a table with several rows and columns that resembles the structure shown below.</li>
+					<li>Add a border around the table, ensuring there's only one solid line between cells.</li>
+					<li>Set alternating background colors for the rows, with one color for odd-numbered rows and a different color for even-numbered rows.</li>
+				</ol>
+			</section>
+			<section>
+				<h2>Sample Output</h2>
+				<ol> 
       <table>
         <tr>
           <th>First Name</th>
@@ -52,6 +65,7 @@ background-color: #f2f2f2;
           <td>janesmith@example.com</td>
         </tr>
       </table>
+			</section>
     </main>
   </body>
 </html>

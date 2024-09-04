@@ -1,0 +1,23 @@
+:root {
+  --primary-color: #168aad;
+  --secondary-color: #f0f0f0;
+  --background-color: #f0f0f0;
+  --muted-background-color: #f8f8f8;
+  --foreground-color: #333;
+}
+* {
+  padding: 0px;
+  margin: 0px;
+  font-family: Arial, sans-serif;
+}
+
+main {
+  padding: 2em;
+}
+
+li {
+  list-style-position: inside;
+}
+
+section {
+}
