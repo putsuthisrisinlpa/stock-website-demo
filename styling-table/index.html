@@ -1,0 +1,57 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Table Styling</title>
+		<style>
+table {
+table-layout: fixed;
+width: 100%;
+border-collapse: collapse; 
+}
+th, td {
+padding: 8px;
+border: 1px solid black;
+
+}
+tr:nth-child(even) {
+background-color: #f2f2f2;
+}
+		</style>
+  </head>
+
+    <main>
+			<h1>
+				User table
+			</h1>
+      <table>
+        <tr>
+          <th>First Name</th>
+          <th>Last Name</th>
+          <th>Email</th>
+        </tr>
+        <tr>
+          <td>John</td>
+          <td>Doe</td>
+          <td>johndoe@exmaple.com</td>
+        </tr>
+        <tr>
+          <td>Jane</td>
+          <td>Doe</td>
+          <td>janedoe@example.com</td>
+        </tr>
+        <tr>
+          <td>John</td>
+          <td>Smith</td>
+          <td>johnsmith@example.com</td>
+        </tr>
+        <tr>
+          <td>Jane</td>
+          <td>Smith</td>
+          <td>janesmith@example.com</td>
+        </tr>
+      </table>
+    </main>
+  </body>
+</html>
