@@ -44,7 +44,7 @@
     </main>
     <footer>Footer</footer>
     <script>
-      fetch("/AAPL.csv")
+      fetch("AAPL.csv")
         .then((res) => res.text())
         .then((data) => {
           const lines = data.split("\n");
