@@ -1,9 +1,9 @@
 :root {
   --primary-color: #168aad;
   --secondary-color: #f0f0f0;
-  --background-color: #f0f0f0;
+  --background-color: white;
   --muted-background-color: #f8f8f8;
-  --foreground-color: #333;
+  --foreground-color: black;
 }
 * {
   padding: 0px;
